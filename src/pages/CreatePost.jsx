@@ -93,7 +93,7 @@ const CreatePost = () => {
           <FormField
             labelName="Suggestion"
             type="text"
-            name="Suggestion"
+            name="prompt"
             placeholder="Un vélociraptor travaillant dans un stand de hot-dogs, lomographie"
             value={form.prompt}
             handleChange={handleChange}
